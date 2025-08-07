@@ -1,0 +1,39 @@
+:root {
+    font-size: clamp(0.3rem, 0.75rem + 1.5vw, 2rem); color: rgb(251, 210, 161);
+ } 
+body {
+    background: radial-gradient( rgb(59, 59, 2), blue, rgb(1, 1, 30));
+}
+h1 {
+    margin-top: 5%; margin-left: 1%; color: rgb(175, 158, 5);
+     }
+form {
+   width: calc(75%); height: auto; margin: auto; flex-wrap: wrap; /* border: solid; */
+}
+input[type='text'] {width: calc(90%); height: 25px ;}
+      input[type='text']:valid {background: wheat;}    
+      input[type='text']:invalid {background: rgb(213, 163, 163);}    
+
+input[type='number'] {width: calc(90%); height: 25px ;}
+      input[type='number']:valid {background: wheat;}    
+      input[type='number']:invalid {background: rgb(213, 163, 163);}    
+
+input[type='email'] {width: calc(90%); height: 25px ;}
+      input[type='email']:valid {background: wheat;}    
+      input[type='email']:invalid {background: rgb(213, 163, 163);}    
+
+input[type='tel'] {width: calc(90%); height: 25px ;}
+      input[type='tel']:valid {background: wheat;}    
+      input[type='tel']:invalid {background: rgb(213, 163, 163);}   
+
+input[type='password'] {width: calc(90%); height: 25px ;}
+      input[type='password']:valid {background: wheat;}    
+      input[type='password']:invalid {background: rgb(213, 163, 163);}   
+
+input[type='checkbox']{accent-color: yellow;width:calc(0.75rem + 2.5vw ); height: 25px ; margin-top: 2%;}
+
+button {
+font-weight: bold; margin-top: 2%; width:calc(40%);
+}
+
+
